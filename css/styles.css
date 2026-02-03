@@ -33,6 +33,8 @@ body {
 .header {
   background: var(--primary);
   border-bottom: 4px solid var(--secondary);
+    position: relative;
+  z-index: 100;
 }
 
 .header-content {
@@ -51,6 +53,8 @@ body {
   list-style: none;
   display: flex;
   gap: 1.5rem;
+  z-index: 999;
+  top: 100%;
 }
 
 .nav.show {
