@@ -104,9 +104,9 @@ body {
 }
 
 /* Mostrar dropdown en hover (desktop) */
-.nav-item:hover .dropdown-menu {
+/* .nav-item:hover .dropdown-menu {
   display: block;
-}
+} */
 
 .site-title a {
   color: #fff;
@@ -413,9 +413,19 @@ h3 {
     gap: 1rem;
   }
 
-  .nav {
-    flex-wrap: wrap;
-    justify-content: center;
+  .dropdown-menu {
+    display: none;
+    position: static;
+    box-shadow: none;
+    background: #9c3737;
+  }
+
+  .dropdown-menu li a {
+    color: #fff;
+  }
+
+  .dropdown-menu.show {
+    display: block;
   }
 
   .hero h2 {
