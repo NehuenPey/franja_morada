@@ -24,8 +24,8 @@ body {
 }
 
 .container {
-  width: 90%;
-  max-width: 1100px;
+  width: 100%;
+  max-width: 1250px;
   margin: auto;
 }
 
@@ -265,7 +265,7 @@ h3 {
 
 /* Estilos para el contenedor principal */
 .container {
-  max-width: 1200px;
+  max-width: 1250px;
   /* Ajusta según tu diseño */
   margin: 0 auto;
   /* Centra el contenedor */
@@ -745,7 +745,7 @@ h3 {
 @media (max-width: 480px) {
 
   .container {
-    width: 92%;
+    width: 100%;
   }
 
   h2 {
