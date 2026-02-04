@@ -640,6 +640,10 @@ h3 {
   .proposal-image img {
     width: 85%;
   }
+
+  .resource-cards {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
 }
 
 @media (max-width: 768px) {
@@ -721,6 +725,9 @@ h3 {
   .propuesta-grid {
     grid-template-columns: 1fr;
   }
+  .resource-cards {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
 
   .proposal-row,
   .proposal-row.reverse {
@@ -783,10 +790,13 @@ h3 {
 
   /* CARDS */
   .cards,
-  .resource-cards,
   .social-grid,
   .recursos-grid {
     grid-template-columns: 1fr;
+  }
+
+  .resource-cards {
+    grid-template-columns: repeat(auto-fit, minmax(165px, 2fr));
   }
 
   .card,
