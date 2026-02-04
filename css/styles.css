@@ -24,8 +24,8 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: 1250px;
+  width: 90%;
+  max-width: 1100px;
   margin: auto;
 }
 
@@ -745,7 +745,7 @@ h3 {
 @media (max-width: 480px) {
 
   .container {
-    width: 100%;
+    width: 92%;
   }
 
   h2 {
@@ -786,7 +786,7 @@ h3 {
   .resource-cards,
   .social-grid,
   .recursos-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .card,
