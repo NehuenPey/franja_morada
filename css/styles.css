@@ -786,7 +786,7 @@ h3 {
   .resource-cards,
   .social-grid,
   .recursos-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .card,
